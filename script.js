@@ -34,10 +34,10 @@ let students = [
 for (let student of students) {
   let media = (student.firstTest + student.secondTest) / 2;
   if (media >= 7){
-    alert(`A media do aluno ${student.name} é ${media}\nParabéns ${student.name}! Você foi aprovado 😉`);
+    alert(`A média do aluno ${student.name} é ${media}\nParabéns ${student.name}! Você foi aprovado 😉`);
   }else{
     alert(
-      `A media do aluno ${student.name} é ${media}\nNão foi dessa vez ${student.name}! Tente de novo. 😔`
+      `A média do aluno ${student.name} é ${media}\nNão foi dessa vez ${student.name}! Tente de novo. 😔`
     );
 
   }
